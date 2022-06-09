@@ -1,0 +1,54 @@
+body{
+    background: cadetblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+#titulo, subtitle,postagem{
+    color: blue;
+}
+.foto_principal{
+    border: 1px;
+    border-radius: 50%;
+}
+.postagem{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 11px;
+}
+.titulo{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.post{
+    background: blue;
+    padding: 10px;
+    border: 3px solid peru;
+    margin: 10px;
+    border-radius: 5px 11px ;
+
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 11;
+    text-transform: capitalize;
+}
+
+.post_img{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contacts_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts_list li a{
+    color: brown;
+}
